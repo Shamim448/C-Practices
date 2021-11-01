@@ -12,7 +12,7 @@ int main()
     int num;
     cout<<"Enter a Integer Number: ";
     cin>>num;
-    if(num%2==0)
+    if(num%2 == 0)
     {
         cout<<"The Number "<<num<<" is a Even Number"<<endl;
     }
@@ -20,7 +20,5 @@ int main()
     {
         cout<<"The Number "<<num<<" is a Odd Number.";
     }
-
-
     getch();
 }
